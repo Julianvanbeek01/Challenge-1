@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>SpaceX Dashboard</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="js/vehicle.js"></script>
+        <script src="js/stock.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
         <script src="https://use.fontawesome.com/39319e4a73.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
@@ -20,23 +20,20 @@
            </section>
             <nav>   
                 <ul>
-                    <li class="current"><a href="#" class="fa fa-rocket">Vehicle</a></li>
-                    <li><a href="stock.html" class="fa fa-cutlery">Stock</a></li>
+                    <li><a href="index.html" class="fa fa-rocket">Vehicle</a></li>
+                    <li class="current"><a href="stock.html" class="fa fa-cutlery">Stock</a></li>
                 </ul>
             </nav>
         </section>
         <section class="container">
-            <h1 class="page-title">Vehicle</h1>
+            <h1 class="page-title">Stock</h1>
             <span class="sub-title">SpaceX Spaceship</span>
             <section class="grid-container">
                 <section class="grid-block">
-                    <canvas id="distanceMars"></canvas>
+                    <canvas id="foodPie"></canvas>
                 </section>                
                 <section class="grid-block">
-                    <canvas id="fuelUsage"></canvas>
-                </section>                
-                <section class="grid-block full-width">
-                    <canvas id="speed"></canvas>
+                    <canvas id="drinkPie"></canvas>
                 </section>
             </section>
         </section>
